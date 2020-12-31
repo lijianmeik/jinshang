@@ -1,0 +1,244 @@
+/* @media screen and (min-width: 1170px) {
+     .mian {
+         width: 1170px;
+     }
+ } */
+
+
+/* @media screen and (min-width: 767px) {
+     .container navcontainer {
+         background-color: rgba(0, 0, 0, 3)!important;
+     }
+ } */
+
+
+/* 主图 */
+
+@media screen and (max-witch:767px) {
+    /* .navbar-toggle .collapsed {
+        margin-right: 40pximportant;
+    } */
+}
+
+.col-md-12 {
+    padding: 0;
+    width: 100%!important;
+    height: 100%!important;
+}
+
+.container .pic {
+    position: relative!important;
+    width: 100%!important;
+    height: 100%!important;
+}
+
+.container .pic img {
+    width: 100%!important;
+    height: 100%!important;
+}
+
+.container .pic h1 {
+    position: absolute!important;
+    left: 50%!important;
+    top: 50%!important;
+    transform: translate(-50%, -50%)!important;
+    color: #fff;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .pic p {
+    position: absolute!important;
+    left: 50%!important;
+    top: 68%!important;
+    transform: translate(-50%, -50%)!important;
+    color: #fff;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* 关于我们部分 */
+
+.service {
+    position: relative;
+    margin-top: 40px;
+    height: 300px;
+    background-color: #EEE;
+}
+
+.col-md-5 {
+    padding-left: 0;
+    height: 100%;
+}
+
+.col-md-5 img {
+    width: 100%;
+    height: 100%;
+}
+
+.we {
+    padding-top: 20px;
+}
+
+.we h2 {
+    color: rgb(92, 15, 92);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.we p {
+    font-size: 18px;
+    padding-top: 10px;
+    color: black;
+    font-weight: 500;
+}
+
+.btn {
+    margin: 15px 5px;
+    background-color: rgb(76, 15, 92);
+    color: #ccc;
+}
+
+.btn-primary {
+    border: none!important;
+}
+
+
+/* 留学方案＆服务部分  */
+
+.program,
+.school {
+    position: relative;
+    margin-top: 40px;
+    height: 435px;
+    background-color: #EEE;
+}
+
+.program h2,
+.school h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding: 0px 0 0px 20px;
+    color: rgb(92, 15, 92);
+}
+
+.school h2 {
+    padding: 20px 0 0 20px!important;
+}
+
+.program p,
+.school p {
+    font-size: 18px;
+    padding: 5px 0 20px 20px;
+    color: black;
+    font-weight: 500;
+}
+
+.col-md-12 {
+    width: 100%;
+    height: 450px;
+}
+
+.list li {
+    float: left;
+    width: 33%;
+    height: 300px;
+    padding-right: 10px;
+}
+
+/* @media screen and (max-width:767px) {
+    .list ul {
+        margin: 0!important;
+    }
+    .list li,
+    .hezuo li {
+        width: 100%!important;
+    }
+} */
+
+.list li:nth-child(1) {
+    padding-left: 10px;
+}
+
+.list li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.list li a img {
+    width: 100%;
+    height: 100%;
+}
+
+.list ul li button {
+    position: absolute;
+    margin: 0!important;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+/* 合作院校部分  */
+
+.school .hezuo {
+    margin: 0 auto;
+    width: 80%;
+    height: 300px;
+}
+
+.school .hezuo ul {
+    width: 100%;
+    height: 100%;
+    padding-left: 25px;
+}
+
+.school .hezuo li {
+    float: left;
+    width: 32%;
+    height: 300px;
+    padding-right: 10px;
+}
+
+.program .list ul {
+    width: 100%;
+    height: 300px;
+    margin: 0 10px 0 5px;
+}
+
+.school .hezuo ul {
+    width: 100%;
+    height: 300px;
+    margin: 0 10px 0 5px;
+}
+
+.school .hezuo li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.school .hezuo li a img {
+    width: 100%;
+    height: 100%;
+}
+
+.school .hezuo ul li button {
+    position: absolute;
+    margin: 0!important;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #fff;
+}
