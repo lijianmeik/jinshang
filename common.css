@@ -1,0 +1,212 @@
+    /* 导航栏 */
+    
+    html,
+    body,
+    iframe,
+    ul,
+    li,
+    ol,
+    dl,
+    dt,
+    dd,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    table,
+    th,
+    td,
+    form,
+    input,
+    select,
+    textarea,
+    em,
+    span,
+    p,
+    a,
+    section,
+    header,
+    footer {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
+        color: black!important;
+    }
+    
+    .container {
+        padding: 0!important;
+    }
+    
+    .row {
+        margin: 0!important;
+        padding: 0!important;
+        height: 100%;
+    }
+    
+    .service img {
+        width: 100%;
+        height: 100%!important;
+    }
+    
+    body {
+        font-size: 18px;
+        font-weight: 500;
+        min-height: 100%;
+        color: #2d2d2d;
+        background: #fff;
+        font-family: "Noto Sans", "Yu Gothic", 游ゴシック, YuGothic, 游ゴシック体, "ヒラギノ角ゴ Pro W3", メイリオ, sans-serif;
+    }
+    
+    .collapse ul li a {
+        font-weight: 600!important;
+    }
+    
+    .collapse ul li:hover {
+        background-color: #e7e7e7!important;
+    }
+    
+    a:hover {
+        color: rgb(92, 15, 92)!important;
+        text-decoration: none;
+    }
+    
+    .active a {
+        color: rgb(92, 15, 92)!important;
+        font-weight: 600!important;
+    }
+    /* @media screen and (max-width:767px) {
+        .navbar-toggle {
+            margin-right: 38px!important;
+        }
+        .collapse ul li {
+            background-color: rgba(0, 0, 0, 0.6)!important;
+        }
+        .nav>li>a {
+            padding-left: 22px!important;
+        }
+        ul {
+            padding: 0!important;
+        }
+        .col-md-5 {
+            width: 380px!important;
+            height: 111px!important;
+        }
+        h2 {
+            font-size: 20px!important;
+            margin: 8px 0!important;
+        }
+        .col-md-7 {
+            padding: 0!important;
+        }
+        .we p {
+            width: 360px!important;
+            margin: 10px!important;
+        }
+        p {
+            width: 360px!important;
+            font-size: 14px!important;
+            padding: 0!important;
+            margin-left: 8px!important;
+        }
+        .btn {
+            font-size: 8px!important;
+            margin: 0 5px!important;
+        }
+        .we {
+            padding: 0!important;
+        }
+        .service,
+        .program,
+        .school,
+        .container-fluid.footer {
+            margin-top: 10px!important;
+        }
+    } */
+    /* footer */
+    
+    .container-fluid.footer {
+        background: url(../img/footer.jpg) no-repeat!important;
+        background-size: cover;
+        font-family: PingFangSC-Thin;
+        color: #fff;
+        margin-top: 40px;
+    }
+    
+    .container-two.footer {
+        background: rgba(0, 0, 0, 0.6)!important;
+    }
+    
+    .container-fluid.footer .companymsg {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 4rem 4rem;
+    }
+    
+    .container-fluid.footer .companymsg .addus {
+        width: 22%;
+        margin-bottom: 0;
+    }
+    
+    .container-fluid.footer .companymsg dt {
+        padding-bottom: 1.5rem;
+        margin-top: 0;
+        font-size: 20px;
+        color: #FFF;
+        font-weight: normal;
+    }
+    
+    .container-fluid.footer .companymsg dd {
+        font-size: 14px;
+        color: #FFFFFF;
+        margin-bottom: 0.7rem;
+    }
+    
+    .container-fluid.footer .companymsg .address {
+        color: #FEFEFE;
+        width: 55%;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    
+    .container-fluid.footer .companymsg .address dd {
+        display: inline-block;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: center;
+        height: 1.5rem;
+        border-right: 1px solid #FEFEFE;
+        margin-bottom: 3rem;
+    }
+    
+    .container-fluid.footer .companymsg dd {
+        font-size: 16px;
+        color: #FFFFFF;
+        margin-bottom: 0.7rem;
+    }
+    
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .container-fluid.footer .companymsg .aboutds {
+        width: 22%;
+        text-align: right;
+    }
+    
+    .container-fluid.footer .companymsg .aboutds img {
+        width: 100%;
+        height: auto;
+        padding-right: 20px;
+    }
+    
+    .container-fluid.footer .companymsg .address dd a {
+        color: #FFF!important;
+    }
